@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+
+    <style>
+        div p {
+            color: rgb(96, 16, 235);
+            /*Decendent selector select all the elements inside the division*/
+        }
+
+        div>p {
+            color: rgb(53, 206, 56);   /*child selector */
+        }
+
+        div + p{
+            color: brown;     /*adjecent selector*/
+        }
+
+        div ~ p{
+            color: beige;        /*general selector*/
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quo deleniti laborum nulla repudiandae
+            impedit harum eveniet accusamus, maxime tempore quasi alias minus cumque iste, aperiam architecto dolorem
+            esse optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam id ad maxime earum nesciunt, vel eligendi
+            debitis enim asperiores. Eveniet asperiores voluptate corrupti quod consequatur alias iusto repudiandae
+            totam molestias!</p>
+        <span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor hic totam labore, debitis magnam corporis
+                voluptatum natus quae vel placeat fuga voluptas sequi molestiae delectus neque dolores officiis ad.
+                Magnam!</p>
+        </span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum ab repellat illum, ad voluptatum beatae
+        obcaecati, ex dolor consequatur earum, vitae enim. Porro architecto labore at et. Non, reiciendis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In dicta inventore at esse eius maiores temporibus
+        pariatur. Optio, enim rerum! Ut, tenetur inventore. Neque ipsa id pariatur vero facere eveniet.</p>
+</body>
+
+</html>
