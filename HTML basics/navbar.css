@@ -1,0 +1,49 @@
+.navId{
+    background-color: rgb(66, 4, 123);
+    border-radius: 2vh;
+    position: relative;
+    display: flex;
+}
+
+.navId ul{
+    overflow: auto;
+    list-style: none;
+
+}
+
+.navId ul li{
+    float: left;
+    padding: 2vh 6vh 2vh 6vh;
+    font-size: 3vh;
+}
+
+.navId ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 80%;
+}
+
+.navId ul li a:hover{
+    background-color: rgb(195, 84, 246);
+    border-radius: 1vh;
+    color: #000;
+    padding: 1vh 0vh 1vh 0vh;
+}
+.navDiv1{
+    position: relative;
+    padding: 4vh 3vh 3vh 20vh;
+    
+}
+.input1{
+    border-radius: 2vh;
+    font-size: 3vh;
+    padding: 0vh 0vh 0vh 4vh;
+}
+
+.navDiv1 .fa-search {
+    position: absolute;
+    top: 36px;
+    right:298px;
+    color: #060505;
+  }
+

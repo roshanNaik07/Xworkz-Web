@@ -4,31 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ListCss</title>
-    <style>
-        ul{
-            list-style-type: none;
-            background-color: rgba(45, 6, 71, 0.9);
-        }
-        ul li{
-            display: inline-block;
-            padding: 20px;
-            font-size: 3vh;
-            color: rgb(255, 255, 255);
-        }
-        li:hover{
-            background-color: rgb(0, 0, 0);
-            color: rgb(0, 0, 0);
-        }
-        .contact1{
-            float: right;
-            padding-right: 5vh;
-
-        }
-        a{
-            text-decoration: none;
-            color: rgb(240, 239, 239);
-        }
-    </style>
+    <link rel="stylesheet" href="listExample2.css">
 </head>
 <body>
     <!-- <dl>
@@ -40,9 +16,17 @@
     <ul>
         <li><a href="https://www.instagram.com/roshans_art/?hl=en">Home</a></li>
         <li><a href="https://www.youtube.com/">About Us</a></li>
-        <li><a href="https://www.instagram.com/roshans_art/?hl=en">Sign in</a></li>
-        <li><a href="https://www.instagram.com/roshans_art/?hl=en">Contact Us</a></li>
+        <li class="dropdown"><a href="https://www.instagram.com/roshans_art/?hl=en">Type</a>
+            <div class="dropdown-content">
+                <div class="drop1"><a href="https://www.instagram.com/roshans_art/?hl=en">Portrait</a></div>
+                <div class="drop1"   ><a href="https://www.instagram.com/roshans_art/?hl=en">Sketch</a></div>
+            </div>
+        </li>
+        <li  class="contact1"><a href="https://www.instagram.com/roshans_art/?hl=en">Contact Us</a></li>
     </ul>
-
+    <div class="img1"><img src="image.png" alt=""></div>
+    <div class="img2"><img src="image.png" alt=""></div>
+    <div class="img3"><img src="image.png" alt=""></div>
+    <div class="img4"><img src="image.png" alt=""></div>
 </body>
 </html>
